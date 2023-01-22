@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		4EAC5856297D3F87009D6AF1 /* TaskManagementAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5855297D3F87009D6AF1 /* TaskManagementAppApp.swift */; };
-		4EAC5858297D3F87009D6AF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5857297D3F87009D6AF1 /* ContentView.swift */; };
 		4EAC585A297D3F87009D6AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC5859297D3F87009D6AF1 /* Assets.xcassets */; };
 		4EAC585D297D3F87009D6AF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC585C297D3F87009D6AF1 /* Preview Assets.xcassets */; };
+		4EAC586A297D4072009D6AF1 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC5866297D4072009D6AF1 /* Ubuntu-Medium.ttf */; };
+		4EAC586B297D4072009D6AF1 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC5867297D4072009D6AF1 /* Ubuntu-Bold.ttf */; };
+		4EAC586C297D4072009D6AF1 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC5868297D4072009D6AF1 /* Ubuntu-Regular.ttf */; };
+		4EAC586D297D4072009D6AF1 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC5869297D4072009D6AF1 /* Ubuntu-Light.ttf */; };
+		4EAC5870297D40D3009D6AF1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC586F297D40D3009D6AF1 /* HomeView.swift */; };
+		4EAC5873297D4159009D6AF1 /* Ubuntu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5872297D4159009D6AF1 /* Ubuntu.swift */; };
+		4EAC5875297D420D009D6AF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5874297D420D009D6AF1 /* Extensions.swift */; };
+		4EAC5877297D496D009D6AF1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5876297D496D009D6AF1 /* Task.swift */; };
+		4EAC587A297D4A3D009D6AF1 /* TaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5879297D4A3D009D6AF1 /* TaskCategory.swift */; };
+		4EAC587C297D4CFA009D6AF1 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC587B297D4CFA009D6AF1 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EAC5852297D3F87009D6AF1 /* TaskManagementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAC5855297D3F87009D6AF1 /* TaskManagementAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagementAppApp.swift; sourceTree = "<group>"; };
-		4EAC5857297D3F87009D6AF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4EAC5859297D3F87009D6AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EAC585C297D3F87009D6AF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4EAC5866297D4072009D6AF1 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		4EAC5867297D4072009D6AF1 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		4EAC5868297D4072009D6AF1 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		4EAC5869297D4072009D6AF1 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		4EAC586E297D4093009D6AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4EAC586F297D40D3009D6AF1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4EAC5872297D4159009D6AF1 /* Ubuntu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ubuntu.swift; sourceTree = "<group>"; };
+		4EAC5874297D420D009D6AF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4EAC5876297D496D009D6AF1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		4EAC5879297D4A3D009D6AF1 /* TaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCategory.swift; sourceTree = "<group>"; };
+		4EAC587B297D4CFA009D6AF1 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +70,11 @@
 		4EAC5854297D3F87009D6AF1 /* TaskManagementApp */ = {
 			isa = PBXGroup;
 			children = (
-				4EAC5855297D3F87009D6AF1 /* TaskManagementAppApp.swift */,
-				4EAC5857297D3F87009D6AF1 /* ContentView.swift */,
-				4EAC5859297D3F87009D6AF1 /* Assets.xcassets */,
+				4EAC5871297D40E1009D6AF1 /* Resources */,
+				4EAC5865297D4033009D6AF1 /* Models */,
+				4EAC5864297D4018009D6AF1 /* Views */,
+				4EAC5863297D4012009D6AF1 /* Fonts */,
+				4EAC586E297D4093009D6AF1 /* Info.plist */,
 				4EAC585B297D3F87009D6AF1 /* Preview Content */,
 			);
 			path = TaskManagementApp;
@@ -65,6 +86,46 @@
 				4EAC585C297D3F87009D6AF1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4EAC5863297D4012009D6AF1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC5867297D4072009D6AF1 /* Ubuntu-Bold.ttf */,
+				4EAC5869297D4072009D6AF1 /* Ubuntu-Light.ttf */,
+				4EAC5866297D4072009D6AF1 /* Ubuntu-Medium.ttf */,
+				4EAC5868297D4072009D6AF1 /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4EAC5864297D4018009D6AF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC586F297D40D3009D6AF1 /* HomeView.swift */,
+				4EAC587B297D4CFA009D6AF1 /* AddTaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4EAC5865297D4033009D6AF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC5872297D4159009D6AF1 /* Ubuntu.swift */,
+				4EAC5876297D496D009D6AF1 /* Task.swift */,
+				4EAC5879297D4A3D009D6AF1 /* TaskCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4EAC5871297D40E1009D6AF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC5855297D3F87009D6AF1 /* TaskManagementAppApp.swift */,
+				4EAC5859297D3F87009D6AF1 /* Assets.xcassets */,
+				4EAC5874297D420D009D6AF1 /* Extensions.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EAC586A297D4072009D6AF1 /* Ubuntu-Medium.ttf in Resources */,
+				4EAC586B297D4072009D6AF1 /* Ubuntu-Bold.ttf in Resources */,
+				4EAC586C297D4072009D6AF1 /* Ubuntu-Regular.ttf in Resources */,
+				4EAC586D297D4072009D6AF1 /* Ubuntu-Light.ttf in Resources */,
 				4EAC585D297D3F87009D6AF1 /* Preview Assets.xcassets in Resources */,
 				4EAC585A297D3F87009D6AF1 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EAC5858297D3F87009D6AF1 /* ContentView.swift in Sources */,
+				4EAC587A297D4A3D009D6AF1 /* TaskCategory.swift in Sources */,
+				4EAC587C297D4CFA009D6AF1 /* AddTaskView.swift in Sources */,
+				4EAC5870297D40D3009D6AF1 /* HomeView.swift in Sources */,
 				4EAC5856297D3F87009D6AF1 /* TaskManagementAppApp.swift in Sources */,
+				4EAC5877297D496D009D6AF1 /* Task.swift in Sources */,
+				4EAC5873297D4159009D6AF1 /* Ubuntu.swift in Sources */,
+				4EAC5875297D420D009D6AF1 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +340,7 @@
 				DEVELOPMENT_TEAM = VWD3W6VA3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskManagementApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +370,7 @@
 				DEVELOPMENT_TEAM = VWD3W6VA3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskManagementApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
